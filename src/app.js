@@ -1,6 +1,5 @@
 function getUserAccount() {
   return axios.get("https://api.bybits.co.uk/auth/token");
-  console.log(response);
 }
 
 function getUserPermissions() {
